@@ -1,0 +1,88 @@
+{
+  "metrics": {
+    "Accuracy": 0.8015,
+    "Precision": 0.5619307832422586,
+    "Recall": 0.46495855312735496,
+    "F1 Score": 0.5088659793814433,
+    "F2 Score": 0.4815797689665938,
+    "ROC-AUC": 0.7579639871886646,
+    "Best_Params": {
+      "max_depth": null,
+      "min_samples_split": 2,
+      "n_estimators": 150
+    },
+    "Confusion_Matrix": [
+      [
+        4192,
+        481
+      ],
+      [
+        710,
+        617
+      ]
+    ],
+    "threshold_optimization": {
+      "baseline": {
+        "threshold": 0.5,
+        "precision": 0.559,
+        "recall": 0.471,
+        "f1_score": 0.5112,
+        "f2_score": 0.4863,
+        "financial_cost": 3756500.0,
+        "true_positives": 625.0,
+        "false_negatives": 702.0,
+        "false_positives": 493.0,
+        "true_negatives": 4180.0
+      },
+      "optimal_f2": {
+        "threshold": 0.14,
+        "precision": 0.2823,
+        "recall": 0.8855,
+        "f1_score": 0.4281,
+        "f2_score": 0.6204,
+        "financial_cost": 2253500.0,
+        "true_positives": 1175.0,
+        "false_negatives": 152.0,
+        "false_positives": 2987.0,
+        "true_negatives": 1686.0
+      },
+      "min_cost": {
+        "threshold": 0.09,
+        "precision": 0.2573,
+        "recall": 0.9435,
+        "f1_score": 0.4044,
+        "f2_score": 0.6154,
+        "financial_cost": 2181500.0,
+        "true_positives": 1252.0,
+        "false_negatives": 75.0,
+        "false_positives": 3613.0,
+        "true_negatives": 1060.0
+      },
+      "recall_pct_improvement": 88.0
+    }
+  },
+  "threshold": 0.14,
+  "num_features": 20,
+  "features": [
+    "mean_delinquency",
+    "weighted_pay_score",
+    "marriage_education",
+    "max_delinquency",
+    "pay_0",
+    "credit_utilization",
+    "pay_2",
+    "Bill_amt1",
+    "payment_mean",
+    "AVG_Bill_amt",
+    "delinquent_months",
+    "pay_amt2",
+    "pay_amt1",
+    "pay_3",
+    "age_to_limit",
+    "Bill_amt2",
+    "payment_cv",
+    "pay_amt3",
+    "bill_trend",
+    "payment_std"
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  "mean_delinquency",
+  "weighted_pay_score",
+  "marriage_education",
+  "max_delinquency",
+  "pay_0",
+  "credit_utilization",
+  "pay_2",
+  "Bill_amt1",
+  "payment_mean",
+  "AVG_Bill_amt",
+  "delinquent_months",
+  "pay_amt2",
+  "pay_amt1",
+  "pay_3",
+  "age_to_limit",
+  "Bill_amt2",
+  "payment_cv",
+  "pay_amt3",
+  "bill_trend",
+  "payment_std"
+]
