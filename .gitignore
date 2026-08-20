@@ -47,3 +47,5 @@ data/predictions.csv
 # OS generated files
 .DS_Store
 Thumbs.db
+~$*
+*.tmp
